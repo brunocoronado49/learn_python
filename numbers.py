@@ -19,3 +19,9 @@ print(3**2)
 # Operador de módulo que retorna el residuo
 print(3 % 2)
 print(3 // 2)
+
+# Tomar entrada de consola
+age = input("Ingresa tu edad: ")
+print(type(age))
+new_age = int(age) + 5
+print(new_age)
