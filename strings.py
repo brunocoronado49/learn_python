@@ -44,3 +44,7 @@ print(num)
 # Muestra la posición del caracter
 pos = my_str[4]
 print(pos)
+
+# Imprimir una variable en un string
+name = "Bruno"
+print(f"Hola este es un texto con la variable: {name}")
