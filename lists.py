@@ -16,3 +16,31 @@ print(colors)
 print(dir(colors))
 print(len(colors))
 print(colors[2])
+
+# Saber si un elemento existe en una lista
+print("pink" in colors)
+
+# Añadiendo un nuevo elemento a lista
+colors.append("pink")
+print(colors)
+print("pink" in colors)
+
+# Agregar más de un elemento a una lista
+colors.extend(["yellow", "violet"])
+print(colors)
+
+# Agregar un color en cierta posicion
+colors.insert(1, "black")
+print(colors)
+
+# Quitar el ultimo elemento de la lista
+colors.pop()
+print(colors)
+
+# Quitar un elemento de la lista con un parametro
+colors.remove("red")
+print(colors)
+
+# Para eliminar todos los elementos de la lista
+colors.clear()
+print(colors)
