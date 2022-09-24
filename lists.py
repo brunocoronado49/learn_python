@@ -44,3 +44,10 @@ print(colors)
 # Para eliminar todos los elementos de la lista
 colors.clear()
 print(colors)
+
+# Ordenar los elementos de un array
+order = ["c", "a", "b", "d", "z", "y", "k"]
+order.sort()
+print(order)
+order.sort(reverse=True)
+print(order)
